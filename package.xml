@@ -3,8 +3,8 @@
 	<packageinformation>
 		<packagename>Monaco Codeeditor</packagename>
 		<packagedescription><![CDATA[Implements an alternative to CodeMirror]]></packagedescription>
-		<version>1.0.0</version>
-		<date>2021-09-11</date>
+		<version>1.0.1</version>
+		<date>2021-09-12</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -26,7 +26,12 @@
 		<instruction type="template" />
 		
 		<instruction type="option" />
+		<instruction type="templateListener" />
 		
 		<instruction type="language" />
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0">
+		<instruction type="templateListener" />
 	</instructions>
 </package>
