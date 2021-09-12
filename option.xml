@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/5.4/option.xsd">
+	<import>
+		<categories>
+			<category name="general.system.monaco">
+				<parent><![CDATA[general.system]]></parent>
+			</category>
+		</categories>
+		<options>
+			<option name="monaco_theme">
+				<optiontype><![CDATA[select]]></optiontype>
+				<selectoptions><![CDATA[vs:Visual Studio Code
+vs-dark:Visual Studio Dark
+hc-black:High Contrast]]></selectoptions>
+				<defaultvalue><![CDATA[vs-dark]]></defaultvalue>
+				<categoryname><![CDATA[general.system.monaco]]></categoryname>
+			</option>
+		</options>
+	</import>
+</data>

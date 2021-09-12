@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.mysterycode.wcf.monaco" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/5.4/package.xsd">
+	<packageinformation>
+		<packagename>Monaco Codeeditor</packagename>
+		<packagedescription><![CDATA[Implements an alternative to CodeMirror]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2021-09-11</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[Florian Gail]]></author>
+		<authorurl><![CDATA[https://www.mysterycode.de]]></authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="5.4.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="5.5.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+	
+	<instructions type="install">
+		<instruction type="file" />
+		<instruction type="acpTemplate" />
+		<instruction type="template" />
+		
+		<instruction type="option" />
+		
+		<instruction type="language" />
+	</instructions>
+</package>
