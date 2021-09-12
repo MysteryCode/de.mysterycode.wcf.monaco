@@ -240,10 +240,12 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+/*
 @font-face {
 	font-family: "codicon";
 	src: url(../base/browser/ui/codicons/codicon/codicon.ttf) format("truetype");
 }
+ */
 
 .codicon[class*='codicon-'] {
 	font: normal normal normal 16px/1 codicon;
